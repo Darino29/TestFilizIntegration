@@ -1,0 +1,43 @@
+
+.features{
+    max-width: 100%;
+    margin: 0 20px;
+    height: 300px;
+}
+.bg{
+    background-color:#ffff ;
+    color: #222;
+    margin-top: -10px;
+    padding: 50px 0;
+    opacity: 1;
+}
+.title h1{
+    margin: 0;
+    font-family: 'NohemiBold';
+    font-size: 35px;
+}
+.title h2{
+    margin: 0;
+    font-family: 'NohemiMedium';
+    font-size: 20px;
+}
+
+.para {
+    text-align: center;
+}
+
+.title p{
+    padding: 10px 20px;
+    font-family: 'NohemiSemiBold';
+    font-size: .8rem;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.wrapper img{
+    width: 50%;
+    left: auto;
+}
